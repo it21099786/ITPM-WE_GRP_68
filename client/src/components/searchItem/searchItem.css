@@ -1,0 +1,71 @@
+.SearchItem{
+    border: 1px solid lightgray;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.siImg{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.siDesc{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 2;
+}
+
+.siTitle{
+    font-style: 20px;
+    color: #0c5c43;;
+}
+
+.siDistance{
+    font-size: small;
+    
+}
+
+.siCancel10p{
+    font-size: 12px;
+    color: #008009;
+    font-weight: bold;
+}
+
+.siCancel0pSubtitle{
+    font-size: 12px;
+    color: rgb(247, 87, 29);
+}
+
+.siDetails{
+    flex: 1;
+}
+
+.siDetailTexts{
+    text-align: right;
+    display:flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.siPrice{
+    font-size: 24px;
+}
+
+.siTex0p{
+    font-size: 12px;
+    color: gray;
+}
+
+.siCheckButton{
+    background-color: #2f8f71;
+    color: white;
+    font-weight: bold;
+    padding: 10px 5px;
+    border: none;
+}
